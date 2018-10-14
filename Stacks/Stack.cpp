@@ -4,8 +4,7 @@ using namespace std;
 typedef struct StackNode
 {
 	int data;
-	struct StackNode * next;
-	
+	struct StackNode * next;	
 }Snode;
 
 Snode * root = NULL;
